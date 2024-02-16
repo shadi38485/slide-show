@@ -1,3 +1,9 @@
 body{
     margin: 0;
 }
+.image-box img{
+    display: none;
+}
+.image-box img:first-child{
+    display: block;
+}
