@@ -12,7 +12,14 @@ document.querySelector(".next").addEventListener("click", () => {
   images[index].style.display = "block";
 });
 
-
+document.querySelector(".previous").addEventListener("click", function () {
+  images[index].style.display = "none";
+  index--;
+  if (index == -1) {
+    index = images.length - 1;
+  }
+  images[index].style.display = "block";
+});
 
 
 /// time
