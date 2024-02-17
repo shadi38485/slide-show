@@ -45,10 +45,16 @@ h1.title {
 }
 .indicators span {
   display: inline-block;
-  background-color: rgba(255, 255, 255, 0.65);
+  /* background-color: rgba(255, 255, 255, 0.65); */
+  background-color: rgba(255, 255, 255);
   width: 10px;
   height: 10px;
   margin-right: 5px;
   border-radius: 50%;
-  /* opacity: 50%; */
+  opacity: 40%;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.18);
+}
+
+.indicators span:first-child {
+   opacity: 100%;
 }
