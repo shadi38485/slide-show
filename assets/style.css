@@ -5,12 +5,12 @@
 body {
   margin: 0;
 }
-.image-box img {
+.images-box img {
   display: none;
   height: 500px;
   width: 100%;
 }
-.image-box img:first-child {
+.images-box img:first-child {
   display: block;
 }
 h1.title {
